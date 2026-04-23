@@ -76,7 +76,7 @@ export default function AboutPage() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
               {/* Chef photo placeholder - 800x1000 */}
               <Image
-                src="/chef.jpg"
+                src="/restaurant/chef.jpg"
                 alt="Executive Chef"
                 fill
                 className="object-cover"

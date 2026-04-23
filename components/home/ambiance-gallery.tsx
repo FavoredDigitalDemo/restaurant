@@ -1,10 +1,10 @@
 import Image from 'next/image'
 
 const images = [
-  { src: '/ambiance-1.jpg', alt: 'Restaurant interior with warm lighting' },
-  { src: '/ambiance-2.jpg', alt: 'Our dedicated kitchen staff' },
-  { src: '/ambiance-3.jpg', alt: 'Beautifully plated dish' },
-  { src: '/ambiance-4.jpg', alt: 'Elegant table setting' },
+  { src: '/restaurant/ambiance-1.jpg', alt: 'Restaurant interior with warm lighting' },
+  { src: '/restaurant/ambiance-2.jpg', alt: 'Our dedicated kitchen staff' },
+  { src: '/restaurant/ambiance-3.jpg', alt: 'Beautifully plated dish' },
+  { src: '/restaurant/ambiance-4.jpg', alt: 'Elegant table setting' },
 ]
 
 export function AmbianceGallery() {

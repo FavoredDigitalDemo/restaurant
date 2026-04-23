@@ -12,19 +12,19 @@ const dishes = [
     name: 'Grilled Ribeye',
     description: 'Prime dry-aged beef with herb butter and seasonal vegetables',
     price: '$42',
-    image: '/dish-1.jpg', // 800x600
+    image: '/restaurant/dish-1.jpg', // 800x600
   },
   {
     name: 'Pan-Seared Salmon',
     description: 'Wild-caught salmon with citrus glaze and asparagus',
     price: '$36',
-    image: '/dish-2.jpg', // 800x600
+    image: '/restaurant/dish-2.jpg', // 800x600
   },
   {
     name: 'Truffle Risotto',
     description: 'Creamy arborio rice with black truffle and parmesan',
     price: '$28',
-    image: '/dish-3.jpg', // 800x600
+    image: '/restaurant/dish-3.jpg', // 800x600
   },
 ]
 

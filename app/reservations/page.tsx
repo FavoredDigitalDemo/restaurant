@@ -52,7 +52,7 @@ export default function ReservationsPage() {
               <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
                 {/* Dining room photo - 800x600 */}
                 <Image
-                  src="/dining-room-1.jpg"
+                  src="/restaurant/dining-room-1.jpg"
                   alt="Main dining room with elegant table settings"
                   fill
                   className="object-cover"
@@ -62,7 +62,7 @@ export default function ReservationsPage() {
               <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
                 {/* Dining room photo - 800x600 */}
                 <Image
-                  src="/dining-room-2.jpg"
+                  src="/restaurant/dining-room-2.jpg"
                   alt="Private dining area with warm lighting"
                   fill
                   className="object-cover"
