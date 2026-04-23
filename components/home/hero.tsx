@@ -4,6 +4,8 @@ import { Suspense } from 'react'
 import { ShoppingBag, CalendarDays } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useShopInfo } from '@/hooks/use-shop-info'
+import GloriaOrderButton from '@/components/GloriaOrderButton'
+import GloriaReserveButton from '@/components/GloriaReserveButton'
 
 function HeroContent() {
   const { shopName, city } = useShopInfo()
@@ -32,22 +34,13 @@ function HeroContent() {
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             {/* GLORIAFOOD_ORDER_WIDGET */}
-            <Button 
-              size="lg" 
+            <GloriaOrderButton 
               className="w-full bg-primary text-primary-foreground hover:bg-primary/90 sm:w-auto"
-            >
-              <ShoppingBag className="mr-2 h-5 w-5" />
-              Order Online
-            </Button>
+            />
             {/* GLORIAFOOD_RESERVATION_WIDGET */}
-            <Button 
-              size="lg" 
-              variant="outline"
+            <GloriaReserveButton 
               className="w-full border-white bg-white/10 text-white backdrop-blur-sm hover:bg-white hover:text-foreground sm:w-auto"
-            >
-              <CalendarDays className="mr-2 h-5 w-5" />
-              Reserve a Table
-            </Button>
+            />
           </div>
         </div>
       </div>
