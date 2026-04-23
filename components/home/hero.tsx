@@ -15,7 +15,7 @@ function HeroContent() {
         <div 
           className="absolute inset-0 -z-10 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('/hero-restaurant.jpg')`,
+            backgroundImage: `url('/ambiance-1.jpg')`,
             backgroundColor: '#292524',
           }}
         />
