@@ -2,12 +2,12 @@ import Image from 'next/image'
 import { Instagram } from 'lucide-react'
 
 const posts = [
-  { src: '/restaurant/instagram-1.jpg', caption: 'Fresh ingredients, crafted with love' },
-  { src: '/restaurant/instagram-2.jpg', caption: 'Weekend brunch vibes' },
-  { src: '/restaurant/instagram-3.jpg', caption: 'Our signature cocktails' },
-  { src: '/restaurant/instagram-4.jpg', caption: 'Behind the scenes' },
-  { src: '/restaurant/instagram-5.jpg', caption: 'Date night perfection' },
-  { src: '/restaurant/instagram-6.jpg', caption: 'Sweet endings' },
+  { src: '/instagram-1.jpg', caption: 'Fresh ingredients, crafted with love' },
+  { src: '/instagram-2.jpg', caption: 'Weekend brunch vibes' },
+  { src: '/instagram-3.jpg', caption: 'Our signature cocktails' },
+  { src: '/instagram-4.jpg', caption: 'Behind the scenes' },
+  { src: '/instagram-5.jpg', caption: 'Date night perfection' },
+  { src: '/instagram-6.jpg', caption: 'Sweet endings' },
 ]
 
 export function InstagramFeed() {

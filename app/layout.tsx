@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/next'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
 import { MobileBottomBar } from '@/components/mobile-bottom-bar'
+import Script from 'next/script'
 import './globals.css'
 
 const sourceSans = Source_Sans_3({ 
@@ -43,6 +44,10 @@ export default function RootLayout({
         <Footer />
         <MobileBottomBar />
         {process.env.NODE_ENV === 'production' && <Analytics />}
+        <Script
+          src="https://www.foodbooking.com/widget/js/ewm2.js"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   )

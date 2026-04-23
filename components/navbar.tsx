@@ -5,6 +5,8 @@ import { useState, Suspense } from 'react'
 import { Menu, X, Utensils } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useShopInfo, useParamLink } from '@/hooks/use-shop-info'
+import GloriaOrderButton from '@/components/GloriaOrderButton'
+import GloriaReserveButton from '@/components/GloriaReserveButton'
 
 function NavbarContent() {
   const [isOpen, setIsOpen] = useState(false)
@@ -44,13 +46,9 @@ function NavbarContent() {
         {/* Desktop CTAs */}
         <div className="hidden items-center gap-3 md:flex">
           {/* GLORIAFOOD_ORDER_WIDGET */}
-          <Button variant="outline" size="sm" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-            Order Online
-          </Button>
+          <GloriaOrderButton className="border-primary text-primary hover:bg-primary hover:text-primary-foreground" />
           {/* GLORIAFOOD_RESERVATION_WIDGET */}
-          <Button size="sm" className="bg-primary text-primary-foreground hover:bg-primary/90">
-            Reserve a Table
-          </Button>
+          <GloriaReserveButton className="bg-primary text-primary-foreground hover:bg-primary/90" />
         </div>
 
         {/* Mobile Menu Button */}
